@@ -25,7 +25,7 @@ const Navbar = () => {
             <span>
               <BiRestaurant size={32} />
             </span>
-            <h1 className=" text-xl font-semibold">FoodieWeb</h1>
+            <h1 className=" text-xl font-semibold">Offpeak Times</h1>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -132,7 +132,7 @@ const Navbar = () => {
               Reviews
             </Link>
 
-            <Button title="Login" />
+            <Button title="Join the Club" />
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -144,9 +144,8 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={` ${
-            menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          className={` ${menu ? "translate-x-0" : "-translate-x-full"
+            } lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to="home"
@@ -199,7 +198,7 @@ const Navbar = () => {
             Reviews
           </Link>
 
-          <Button title="login" />
+          <Button title="Join the Club" />
         </div>
       </div>
     </div>

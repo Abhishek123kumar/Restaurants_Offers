@@ -21,6 +21,25 @@ const App = () => {
         <div id="dishes">
           <Dishes />
         </div>
+        <div id="dishes-district2">
+          <Dishes />
+        </div>
+
+        <div id="dishes-district3">
+          <Dishes />
+        </div>
+
+        <div id="dishes-district4">
+          <Dishes />
+        </div>
+
+        <div id="dishes-district5">
+          <Dishes />
+        </div>
+
+        <div id="dishes-district6">
+          <Dishes />
+        </div>
 
         <div id="about">
           <About />
