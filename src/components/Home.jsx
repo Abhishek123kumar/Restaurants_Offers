@@ -12,7 +12,7 @@ const Home = () => {
           Unlock exclusive deals and discounts at top restaurants and bars in Budapest.
         </p>
         <div className=" lg:pl-44">
-          <Button title="Join the Club" />
+          <Button title="Get membership" />
         </div>
       </div>
     </div>
